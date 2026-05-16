@@ -1,3 +1,60 @@
-body { font-family: sans-serif; background-color: #f4f4f4; color: #333; padding: 20px; }
-.comando { background: white; padding: 15px; margin-bottom: 10px; border-left: 5px solid #2ecc71; border-radius: 4px; }
-h1 { color: #2c3e50; }
+body{
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f9fc;
+    color: #333;
+}
+
+/* HEADER */
+header{
+    background: linear-gradient(
+        135deg,
+        #dff6ff,
+        #fce1f4
+    );
+    border-radius: 0 0 25px 25px;
+    margin-bottom: 30px;
+}
+
+h1{
+    color: #3b4a6b;
+    font-weight: bold;
+}
+
+header p{
+    color: #6c757d;
+    font-size: 1.1rem;
+}
+
+/* TARJETAS */
+.comando{
+    border: none;
+    border-left: 6px solid #8ec5fc;
+    border-radius: 18px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.07);
+
+    transition: all 0.3s ease;
+}
+
+.comando:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+}
+
+/* TITULOS */
+.card-title{
+    color: #495057;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+.card-title i{
+    color: #6ea8fe;
+    margin-right: 8px;
+}
+
+/* TEXTO */
+.card-text{
+    color: #666;
+    line-height: 1.5;
+}
